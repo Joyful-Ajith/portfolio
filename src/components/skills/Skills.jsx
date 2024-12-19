@@ -107,28 +107,73 @@ const Skills = ({ darkMode }) => {
 
         
         <div
-          data-aos="fade-up"
-          data-aos-duration="1200"
-          className=" container m-auto flex items-center justify-center mt-8 gap-8 md:gap-5"
-        >
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/html-5--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/css3--v1.png"/>
-          <img
-            className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
-            src="https://img.icons8.com/color/48/null/bootstrap.png"
-            />
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/javascript--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/react-native--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/nodejs.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/express-js.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/git--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/github--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/adobe-photoshop--v1.png"/>
-          <img className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]" src="https://img.icons8.com/color/48/null/microsoft-clipchamp--v1.png"/>
-          
-         
-        </div> 
+  data-aos="fade-up"
+  data-aos-duration="1200"
+  className="container m-auto flex flex-wrap items-center justify-center mt-8 gap-8 md:gap-5"
+>
+  {/* Icon Items */}
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/html-5--v1.png"
+    alt="HTML5"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/css3--v1.png"
+    alt="CSS3"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/bootstrap.png"
+    alt="Bootstrap"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/javascript--v1.png"
+    alt="JavaScript"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/react-native--v1.png"
+    alt="React"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/nodejs.png"
+    alt="Node.js"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/express-js.png"
+    alt="Express.js"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/null/external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo.png"
+    alt="MongoDB"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/git--v1.png"
+    alt="Git"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/github--v1.png"
+    alt="GitHub"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/adobe-photoshop--v1.png"
+    alt="Photoshop"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/microsoft-clipchamp--v1.png"
+    alt="Clipchamp"
+  />
+</div>
+
       </div>
     </div>
   );
