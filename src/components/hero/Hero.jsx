@@ -13,7 +13,7 @@ import resumePDF from "../../assets/Ajith_Resume.pdf";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-teal-400">
+    <div className="bg-gradient-to-r from-teal-400 via-blue-300 to-green-300">
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -105,55 +105,63 @@ const Hero = () => {
 
         
         <div className="right top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
-      <div className="relative h-[88%] w-fit flex items-center sm:items-end">
-        {/* Circle Shaped Image */}
+  <div className="relative h-[88%] w-fit flex items-center sm:items-end">
+    {/* Circle Shaped Image */}
+    <img
+      data-aos="fade-up"
+      className="h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-full"
+      src="https://i.postimg.cc/nrGDdZnv/nb-Etw-UWRYAn-R-removebg-preview.png"
+      alt="mine"
+    />
+
+    {/* Balls/Circles */}
+    <div
+      className="absolute w-8 h-8 bg-yellow-400 rounded-full animate-bounce"
+      style={{ top: "10%", left: "10%" }}
+    ></div>
+    <div
+      className="absolute w-6 h-6 bg-blue-400 rounded-full animate-spin"
+      style={{ top: "20%", right: "10%" }}
+    ></div>
+    <div
+      className="absolute w-10 h-10 bg-red-400 rounded-full animate-pulse"
+      style={{ bottom: "15%", left: "20%" }}
+    ></div>
+    <div
+      className="absolute w-12 h-12 bg-green-400 rounded-full animate-bounce"
+      style={{ bottom: "10%", right: "15%" }}
+    ></div>
+
+    {/* New Circle */}
+    <div
+      className="absolute w-8 h-8 bg-purple-500 rounded-full animate-bounce"
+      style={{ top: "5%", right: "5%" }}
+    ></div>
+
+    {/* Animated Circle */}
+    <div className="absolute bottom-10 md:bottom-3 right-8 md:right-2">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        className="relative cursor-pointer"
+      >
+        {/* Circle Text */}
         <img
-          data-aos="fade-up"
-          className="h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-full"
-          src="/src/assets/nbEtwUWRYAnR-removebg-preview.png"
-          alt="mine"
+          className="w-[135px] md:w-[90px] rounded-full circle-text"
+          src="https://i.postimg.cc/PxmpxhpB/Full-Stack-Developer2.png"
+          alt="Fullstack developer"
         />
 
-        {/* Balls/Circles */}
-        <div
-          className="absolute w-8 h-8 bg-yellow-400 rounded-full animate-bounce"
-          style={{ top: "10%", left: "10%" }}
-        ></div>
-        <div
-          className="absolute w-6 h-6 bg-blue-400 rounded-full animate-spin"
-          style={{ top: "20%", right: "10%" }}
-        ></div>
-        <div
-          className="absolute w-10 h-10 bg-red-400 rounded-full animate-pulse"
-          style={{ bottom: "15%", left: "20%" }}
-        ></div>
-        <div
-          className="absolute w-12 h-12 bg-green-400 rounded-full animate-bounce"
-          style={{ bottom: "10%", right: "15%" }}
-        ></div>
-
-        {/* Animated Circle */}
-        <div className="absolute bottom-10 md:bottom-3 right-8 md:right-2">
-          <div
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-            className="relative cursor-pointer"
-          >
-            {/* Circle Text */}
-            <img
-              className="w-[135px] md:w-[90px] rounded-full circle-text"
-              src="https://ik.imagekit.io/imgkitt/tr:w-400/Full_Stack_Developer2.png?updatedAt=1683134009107"
-              alt=""
-            />
-
-            {/* Center Play Icon */}
-            <FaPlay
-              className="text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-            />
-          </div>
-        </div>
+        {/* Center Play Icon */}
+        <FaPlay
+          className="text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+        />
       </div>
     </div>
+  </div>
+</div>
+
+
       </div>
     </div>
   );
