@@ -1,3 +1,3 @@
 # Portfolio
 
-LINK: https://sandip-portfoliojs.netlify.app/
+LINK: https://portfolio-seven-chi-65.vercel.app/
