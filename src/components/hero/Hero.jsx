@@ -4,7 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
@@ -13,7 +13,7 @@ import resumePDF from "../../assets/Ajith_Resume.pdf";
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-r from-teal-400 via-blue-300 to-green-300">
+    <div className="bg-gradient-to-r from-[#006d77] via-[#83c5be] to-[#edf6f9] pb-4">
       <div className=" container mx-auto pt-5 h-[750px] md:h-[100vh] md:flex-col-reverse sm:h-[780px]  flex sm:flex-col-reverse sm:pt-0 ">
         <div className=" left mt-4 md:mt-0 flex-1 flex flex-col justify-center gap-5 w-1/2 md:w-full md:py-2 sm:py-0">
           <div className="info w-fit flex flex-col items-start justify-center gap-3 sm:gap-2">
@@ -35,7 +35,7 @@ const Hero = () => {
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-white text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
@@ -46,12 +46,12 @@ const Hero = () => {
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
-            <a
-              href=""
-              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
-            >
-              <span> Hire Me</span>
-            </a>
+          <a
+  href="mailto:ajithaji1902@gmail.com?subject=Hello%20Ajith&body=Hi%20Ajith,%20I%20came%20across%20your%20profile%20and%20wanted%20to%20connect."
+  className="bg-black text-white text-base px-10 py-2 sm:px-8 rounded-lg font-bold hover:text-yellow-500 transition duration-300"
+>
+  <span>Hire Me</span>
+</a>
             <a
               href={resumePDF}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
@@ -75,19 +75,19 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/ajith-r-240697261/">
+                <a href="http://www.linkedin.com/in/ajith-thedeveloper">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.instagram.com/ajux_02?igsh=YzljYTk1ODg3Zg==">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="http://www.youtube.com/@santa_Asia">
+                <a href="https://www.youtube.com/@AjuByte">
                   {" "}
                   <FaYoutube className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  "  />{" "}
                 </a>
@@ -110,7 +110,7 @@ const Hero = () => {
     <img
       data-aos="fade-up"
       className="h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-full"
-      src="https://i.postimg.cc/nrGDdZnv/nb-Etw-UWRYAn-R-removebg-preview.png"
+      src="https://i.postimg.cc/rmHs9VHn/Whats-App-Image-2025-02-20-at-19-11-01-bf261252-removebg-preview.png"
       alt="mine"
     />
 

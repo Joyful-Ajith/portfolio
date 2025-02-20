@@ -108,7 +108,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               </li>
             ))}
             <a
-              href="mailto:ajithr1902@gmail.com"
+              href="mailto:ajithaji1902@gmail.com?subject=Hello%20Ajith&body=Hi%20Ajith,%20I%20came%20across%20your%20profile%20and%20wanted%20to%20connect."
               className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME

@@ -172,6 +172,21 @@ const Skills = ({ darkMode }) => {
     src="https://img.icons8.com/color/48/null/microsoft-clipchamp--v1.png"
     alt="Clipchamp"
   />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/tailwindcss.png"
+    alt="Tailwind CSS"
+  />
+  <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/firebase.png"
+    alt="Firebase JS"
+  />
+  {/* <img
+    className="w-[40px] h-[40px] md:w-[35px] md:h-[35px]"
+    src="https://img.icons8.com/color/48/null/nextjs.png"
+    alt="Cloudinary JS"
+  /> */}
 </div>
 
       </div>

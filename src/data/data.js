@@ -19,10 +19,18 @@ export const data = [
   {
     id: 3,
     img: 'https://i.postimg.cc/8z56bq96/Landing-Page-Movie-Ticket-Booking.jpg',
-    title: "Movie Ticket",
+    title: "Ajuz Tickets for Booking",
     desc: "",
     link: "https://ticket-booking-one-phi.vercel.app/",
     git: "https://github.com/Ajith-website-ux/Ticket-Booking",
+  },
+  {
+    id: 4,
+    img: 'https://i.postimg.cc/Fs85pfDX/Screenshot-2025-02-20-175954.png',
+    title: "Aju Kinz Foods",
+    desc: "",
+    link: "https://aju-kinz-food-n47w.vercel.app/",
+    git: "https://aju-kinz-food-1vro.vercel.app/",
   }
   
 ];
