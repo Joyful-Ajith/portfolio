@@ -99,7 +99,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
                 <a
                   onClick={() => toggleNav(item.name)}
                   href={`#${item.name}`}
-                  className={`uppercase cursor-pointer text-black hover:text-yellow-600 font-bold ${
+                  className={`uppercase cursor-pointer text-black hover:text-teal-600 font-bold ${
                     item.name === activeIndex ? "text-yellow-600" : ""
                   }`}
                 >
@@ -109,7 +109,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             ))}
             <a
               href="mailto:ajithaji1902@gmail.com?subject=Hello%20Ajith&body=Hi%20Ajith,%20I%20came%20across%20your%20profile%20and%20wanted%20to%20connect."
-              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
+              className="bg-black text-[1rem] text-white px-8 py-2 rounded-lg font-bold hover:text-teal-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               HIRE ME
             </a>

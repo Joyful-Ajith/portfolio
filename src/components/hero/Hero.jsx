@@ -48,13 +48,13 @@ const Hero = () => {
           <div data-aos="fade-up" className="buttons flex gap-5">
           <a
   href="mailto:ajithaji1902@gmail.com?subject=Hello%20Ajith&body=Hi%20Ajith,%20I%20came%20across%20your%20profile%20and%20wanted%20to%20connect."
-  className="bg-black text-white text-base px-10 py-2 sm:px-8 rounded-lg font-bold hover:text-yellow-500 transition duration-300"
+  className="bg-black text-white text-base px-10 py-2 sm:px-8 rounded-lg font-bold hover:text-teal-500 transition duration-300"
 >
   <span>Hire Me</span>
 </a>
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
+              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-teal-500"
               download
             >
               <div className="flex items-center gap-1">
